@@ -9,17 +9,13 @@ usethis::use_build_ignore("dev_history.R")
 ## Configure git ---
 ## -------------
 
+# Check credentials
+usethis::git_sitrep()
+#usethis::git_vaccinate()
+#If not see : https://usethis.r-lib.org/articles/articles/git-credentials.html
+
 # Initialize a repo
 usethis::use_git()
-# Add a repo
-gh::gh("POST /user/repos", name = "benutils")
-usethis::git_vaccinate()
-usethis::git_sitrep()
-usethis::use_git()
-# In the terminal :
-# git init
-# git add .
-# git commit -m "first commit"
-# git branch -M main
-# git remote add origin https://github.com/BenjaminLouis/benutils.git
-# git push -u origin main
+
+# Add a repo and connect to github
+usethis::use_github()
