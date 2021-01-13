@@ -1,3 +1,6 @@
 ^benutils\.Rproj$
 ^\.Rproj\.user$
 ^dev_history\.R$
+^LICENSE\.md$
+^README\.Rmd$
+^CODE_OF_CONDUCT\.md$

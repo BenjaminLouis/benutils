@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "contact@benjaminlouis-stat.fr")
 Description: This package contains some functions that help me in R package development. I hope it can help others too !
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
