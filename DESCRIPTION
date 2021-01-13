@@ -1,16 +1,19 @@
 Package: benutils
-Title: Help for R package development 
+Title: Help for R package development
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Benjamin",
            family = "Louis",
            role = c("aut", "cre"),
            email = "contact@benjaminlouis-stat.fr")
-Description: This package contains some functions that help me in R package development. I hope it can help others too !
+Description: This package contains some functions that help
+    me in R package development. I hope it can help others too !
 License: MIT + file LICENSE
+URL: https://github.com/BenjaminLouis/benutils
+BugReports: https://github.com/BenjaminLouis/benutils/issues
+Imports: 
+    here
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-URL: https://github.com/BenjaminLouis/benutils
-BugReports: https://github.com/BenjaminLouis/benutils/issues

@@ -36,7 +36,7 @@ usethis::use_lifecycle_badge( "Experimental" )
 ## R files ---
 ## -------
 
-#usethis::use_r(")
+usethis::use_r("find_pattern")
 
 ## Tests ---
 ## -----
