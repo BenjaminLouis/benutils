@@ -1,0 +1,15 @@
+Package: benutils
+Title: Help for R package development 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Benjamin",
+           family = "Louis",
+           role = c("aut", "cre"),
+           email = "contact@benjaminlouis-stat.fr")
+Description: This package contains some functions that help me in R package development. I hope it can help others too !
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
