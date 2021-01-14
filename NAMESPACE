@@ -2,4 +2,6 @@
 
 export(find_pattern)
 export(is_in_file)
+export(make_data_documentation)
 importFrom(here,here)
+importFrom(utils,tail)

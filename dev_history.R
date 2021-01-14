@@ -37,6 +37,7 @@ usethis::use_lifecycle_badge( "Experimental" )
 ## -------
 
 usethis::use_r("find_pattern")
+usethis::use_r("make_data_documentation")
 
 ## Tests ---
 ## -----

@@ -68,7 +68,7 @@ is_in_file <- function(
 ) {
 
   # Read lines in file
-  text_lines <- readLines(con = file)
+  text_lines <- readLines(con = file, warn = FALSE)
 
   # check for pattern
   any(grepl(pattern = pattern, x = text_lines, perl = TRUE))
