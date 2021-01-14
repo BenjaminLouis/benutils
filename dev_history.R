@@ -41,6 +41,7 @@ usethis::use_r("find_pattern")
 ## Tests ---
 ## -----
 
+usethis::use_test("find_pattern")
 
 ## Dependencies ---
 ## ------------
